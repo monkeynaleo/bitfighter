@@ -301,7 +301,7 @@ S32 EditorPlugin::lua_getGridSize(lua_State *L)
  * @endcode
  *
  * This result is sorted by the time at which the objects was selected,
- * so 't[1]' will always be the first selected object and 't[#t]' will
+ * so 't[1]' will always be the first selected object and 't[\#t]' will
  * always be the last.
  * 
  * @return Table containing all the objects that are currently selected in
